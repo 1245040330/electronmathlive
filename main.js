@@ -24,7 +24,6 @@ function createWindow() {
       v8CacheOptions: 'none',//禁用缓存
       allowRunningInsecureContent: true,//允许运行http资源
       webSecurity: false,
-      preload: path.join(__dirname, 'preload.js')
     }
   })
 
